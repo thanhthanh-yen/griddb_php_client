@@ -25,7 +25,7 @@
 
         // Register string data
         // (1)Get contents of a file into a string
-        $filename = "sample/BlobData.php";
+        $filename = "BlobData.php";
         $handle = fopen($filename, "rb");
         $blobString = fread($handle, filesize($filename));
         fclose($handle);
